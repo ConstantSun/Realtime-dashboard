@@ -6,4 +6,6 @@ Stream data and build report data from on-prem IBM, Oracle to AWS RDS Postgres
 
 # Path to prod
 <img width="1029" alt="image" src="https://github.com/ConstantSun/Realtime-dashboard/assets/26327367/445befa4-d147-4c29-aa7a-9a0ec8914cfa">
-## Note: Network latency, Changed data daily
+
+## Note: 
+Network latency, Changed data's volume daily
