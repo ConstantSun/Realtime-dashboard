@@ -1,0 +1,76 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": "0",
+            "rule-name": "rule0",
+            "object-locator": {
+                "schema-name": "dms_sample",
+                "table-name": "%"
+            },
+            "rule-action": "include"
+        },
+        {
+          "rule-type": "transformation",
+          "rule-id": "1",
+          "rule-name": "1",
+          "rule-action": "rename",
+          "rule-target": "schema",
+          "object-locator": {
+              "schema-name": "Test"
+          },
+          "value": "Test1"
+      },
+      {   
+        "rule-type": "transformation",   
+        "rule-id": "..",   
+        "rule-name": "..",   
+        "rule-action": "include-column",   
+        "rule-target": "column",   
+        "object-locator": {     
+          "schema-name": "dms_sample",   
+          "table-name": "player",     
+          "column-name": "first_name"   
+        } 
+      },
+      {   
+        "rule-type": "transformation",   
+        "rule-id": "2",   
+        "rule-name": "2",   
+        "rule-action": "include-column",   
+        "rule-target": "column",   
+        "object-locator": {     
+          "schema-name": "dms_sample",   
+          "table-name": "player",     
+          "column-name": "id"   
+        } 
+      },    
+      {   
+        "rule-type": "transformation",   
+        "rule-id": "3",   
+        "rule-name": "3",   
+        "rule-action": "include-column",   
+        "rule-target": "column",   
+        "object-locator": {     
+          "schema-name": "dms_sample",   
+          "table-name": "sport_division",     
+          "column-name": "short_name"   
+        } 
+      },  
+      {   
+        "rule-type": "transformation",   
+        "rule-id": "4",   
+        "rule-name": "4",   
+        "rule-action": "include-column",   
+        "rule-target": "column",   
+        "object-locator": {     
+          "schema-name": "dms_sample",   
+          "table-name": "sport_division",     
+          "column-name": "long_name"   
+        } 
+      }     
+      
+    ]
+  }
+  
+  
